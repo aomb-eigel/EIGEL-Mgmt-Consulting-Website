@@ -1,0 +1,46 @@
+.area-hover {
+    fill: #FBC436;
+}
+
+.area-hover:hover {
+    fill: #E1B030 ;
+}
+
+.area-name {
+    font-weight: bold;
+}
+
+.button-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.interactive-map {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+svg {
+    fill: #E3E3E3;
+}
+
+.svg-container {
+    height: fit-content;
+    width: fit-content;
+}
+
+.svg-map {
+    height: 600px;
+    overflow: hidden;
+    width: 500px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .svg-map-and-zoom {
+        margin-bottom: 25px;
+    }
+} 
+
