@@ -14,7 +14,8 @@ body {
     border-top: 4px solid #194073;
 }
 
-.left-section-contat-us-image {
+
+.left-section-contact-us-image {
     max-width: 546px;
     max-height: 550px;
     overflow: hidden;
@@ -27,6 +28,16 @@ body {
 }
 
 @media (max-width: 768px) {
+    /* Custom CSS for search and filter in Datatables of clients and projects page */
+    .dataTables_length label, .dataTables_filter label {
+        width: 100%;
+    }
+
+    .dataTables_filter label {
+        padding-top: 5px;
+    }
+    /* Custom CSS for search and filter in Datatables of clients and projects page */
+
     .header-container{
         max-width: 768px;
         min-width: 375px;
