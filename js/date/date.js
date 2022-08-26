@@ -19,4 +19,4 @@ function inWords (num) {
 }
 
 document.getElementById('curret-experience-text').innerHTML = inWords(currentExperience);
-document.getElementById('current-experience-number').innerHTML = currentExperience;
+document.getElementById('current-experience-number').setAttribute("data-to", currentExperience);
