@@ -28,6 +28,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    .get-started {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
     /* Custom CSS for search and filter in Datatables of clients and projects page */
     .dataTables_length label, .dataTables_filter label {
         width: 100%;
