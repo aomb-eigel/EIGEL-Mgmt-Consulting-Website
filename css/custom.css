@@ -21,6 +21,16 @@ body {
     overflow: hidden;
 }
 
+.read-more-article-page {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.read-more-article-page a:hover {
+    color: white
+}
+
 @media (min-width: 768px) {
     .header-container{
         max-width: 1200px;
