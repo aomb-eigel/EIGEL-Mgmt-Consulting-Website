@@ -4,7 +4,7 @@ input.addEventListener("input", myFunction);
 function myFunction(e) {
 var filter = e.target.value.toUpperCase();
 
-var list = document.getElementById("list");
+var list = document.getElementById("articles");
 var divs = list.getElementsByTagName("div");
 for (var i = 0; i < divs.length; i++) {
         var a = divs[i].getElementsByTagName("a")[0];
