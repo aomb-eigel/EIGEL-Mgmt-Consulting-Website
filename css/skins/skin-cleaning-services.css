@@ -6080,7 +6080,7 @@ html .image-hotspot-light .ring {
 }
 
 .icon-featured {
-	background-color: #00a1cd;
+	background-color: var(--secondary);
 }
 
 html .featured-box-primary .icon-featured {
