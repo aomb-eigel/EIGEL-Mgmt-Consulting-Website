@@ -12,7 +12,7 @@
 	--primary: #00a1cd;
 	--secondary: #183f72;
 	--tertiary: #0281d7;
-	--quaternary: #383f48;
+	--quaternary: #dc3545;
 }
 
 a {
@@ -63,7 +63,7 @@ html .text-hover-tertiary:hover {
 
 html .text-color-quaternary,
 html .text-quaternary {
-	color: #383f48 !important;
+	color: var(--quaternary) !important;
 }
 
 html .text-color-hover-quaternary:hover,
@@ -514,7 +514,7 @@ html .bg-color-hover-before-tertiary:before:hover {
 
 html .bg-color-quaternary,
 html .bg-quaternary {
-	background-color: #383f48 !important;
+	background-color: var(--quaternary) !important;
 }
 
 html .bg-color-hover-quaternary:hover,
@@ -4190,15 +4190,15 @@ html .list-quaternary.list-icons li > [class*="fa-"]:first-child,
 html .list-quaternary.list-icons li a:first-child > [class*="fa-"]:first-child,
 html .list-quaternary.list-icons li > .icons:first-child,
 html .list-quaternary.list-icons li a:first-child > .icons:first-child {
-	color: #383f48;
-	border-color: #383f48;
+	color: var(--quaternary);
+	border-color: var(--quaternary);
 }
 
 html .list-quaternary.list-icons.list-icons-style-3 li > [class*="fa-"]:first-child,
 html .list-quaternary.list-icons.list-icons-style-3 li a:first-child > [class*="fa-"]:first-child,
 html .list-quaternary.list-icons.list-icons-style-3 li > .icons:first-child,
 html .list-quaternary.list-icons.list-icons-style-3 li a:first-child > .icons:first-child {
-	background-color: #383f48;
+	background-color: var(--quaternary);
 	color: #FFF;
 }
 
