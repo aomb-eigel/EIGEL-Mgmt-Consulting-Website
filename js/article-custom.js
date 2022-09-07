@@ -4,9 +4,9 @@ console.log(headerLogo);
 
 function myFunction(x) {
     if (x.matches) { // If media query matches
-        document.getElementById("header-logo").src = "img/homepage-images/ps_logofinal_resized.png";
+        document.getElementById("header-logo").src = "../img/homepage-images/ps_logofinal_resized.png";
     } else {
-        document.getElementById("header-logo").src = "img/homepage-images/ps_withtextfinal2.png";
+        document.getElementById("header-logo").src = "../img/homepage-images/ps_withtextfinal2.png";
     }
   }
   
