@@ -31,9 +31,24 @@ body {
     color: white
 }
 
-.test {
-   
+/* TEST */
+
+.grid-layout {
+    display: grid;
+    grid-auto-flow: dense;
+    grid-auto-rows: minmax(180px, auto);
+    grid-gap: 3px;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    padding: 1px;
+    margin-bottom: 100px;
 }
+
+.grid-item {
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* TEST */
 
 @media (min-width: 768px) {
     .header-container{
