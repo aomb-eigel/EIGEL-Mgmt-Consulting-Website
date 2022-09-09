@@ -2,7 +2,7 @@ const paginationNumbers = document.getElementById("pagination-numbers");
 const paginatedList = document.getElementById("articles");
 const listItems = paginatedList.querySelectorAll("div");
 
-const paginationLimit = 45;
+const paginationLimit = 63;
 const pageCount = Math.ceil(listItems.length / paginationLimit);
 let currentPage = 1;
 
