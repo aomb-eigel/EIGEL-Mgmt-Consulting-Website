@@ -49,6 +49,15 @@
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.min.js"></script>
 
+		<!-- Map CSS/JavaScript -->
+		<link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+		<script type="text/javascript" src='../test-credentials.js'></script>
+		<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+		<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+		<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+		<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+  		<script>window.ENV_VARIABLE = 'developer.here.com'</script><script src='../iframeheight.js'></script></head>
+
 	</head>
 	<body data-plugin-page-transition>
 
@@ -160,49 +169,13 @@
 							<p class="mb-4 font-weight-bold">Feel free to ask for details, don't save any questions!</p>
 
 							<!-- height = 482 and width = 546 -->
-							<div class="left-section-contact-us-image">
-								<img src="img/left-section-image.jpg">
-							</div>
-							
-							
-							<!-- <form class="contact-form appear-animation" action="php/contact-form.php" method="POST" data-appear-animation="fadeIn" data-appear-animation-delay="600">
-								<div class="contact-form-success alert alert-success d-none mt-4">
-									<strong>Success!</strong> Your message has been sent to us.
-								</div>
+							<!-- 
+								<div class="left-section-contact-us-image">
+									<img src="img/left-section-image.jpg">
+								</div> 
+							-->
 
-								<div class="contact-form-error alert alert-danger d-none mt-4">
-									<strong>Error!</strong> There was an error sending your message.
-									<span class="mail-error-message text-1 d-block"></span>
-								</div>
-
-								<div class="row">
-									<div class="form-group col-lg-6">
-										<label class="form-label mb-1 text-2">Full Name</label>
-										<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control text-3 h-auto py-2" name="name" required>
-									</div>
-									<div class="form-group col-lg-6">
-										<label class="form-label mb-1 text-2">Email Address</label>
-										<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control text-3 h-auto py-2" name="email" required>
-									</div>
-								</div>
-								<div class="row">
-									<div class="form-group col">
-										<label class="form-label mb-1 text-2">Subject</label>
-										<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required>
-									</div>
-								</div>
-								<div class="row">
-									<div class="form-group col">
-										<label class="form-label mb-1 text-2">Message</label>
-										<textarea maxlength="5000" data-msg-required="Please enter your message." rows="8" class="form-control text-3 h-auto py-2" name="message" required></textarea>
-									</div>
-								</div>
-								<div class="row">
-									<div class="form-group col">
-										<input type="submit" value="Send Message" class="btn btn-primary btn-modern" data-loading-text="Loading...">
-									</div>
-								</div>
-							</form> -->
+							<div style="width: 550px; height: 600px" id="mapContainer"></div>
 
 						</div>
 						<div class="col-lg-6">
@@ -212,7 +185,7 @@
 								<ul class="list list-icons list-icons-style-2 mt-2">
 									<li><i class="fas fa-map-marker-alt top-6"></i> <strong class="text-dark">EIGEL Main Office:</strong> Room 2 2nd Flr. La Paloma Building 233 Mayon corner N. Roxas Streets, Sta. Mesa Heights, Quezon City, PH</li>
 									<li><i class="fas fa-map-marker-alt top-6"></i> <strong class="text-dark">EIGEL Branch Office:</strong> 35 Rizal Street Centro Northeast, Solana, Cagayan Valley, PH</li>
-									<li><i class="fas fa-phone top-6"></i> <strong class="text-dark">Phone:</strong> (+63) 977 814 1208 </li>
+									<li><i class="fas fa-phone top-6"></i> <strong class="text-dark">Phone:</strong><a href="tel:09778141208">(+63) 977 814 1208</a></li>
 									<li><i class="fas fa-envelope top-6"></i> <strong class="text-dark">Email:</strong> <a href="mailto:eigelconsult@gmail.com">eigelconsult@gmail.com</a></li>
 								</ul>
 							</div>
@@ -226,8 +199,22 @@
 							</div>
 
 							<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="1200">
-								<h4 class="pt-5">Get in <strong>Touch</strong></h4>
-								<p class="lead mb-0 text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<h4 class="pt-5">Get in <strong>Touch</strong> with our Social Medias</h4>
+
+								<ul class="list list-icons list-icons-style-2 mt-2">
+									<li>
+										<i class="fab fa-facebook-f text-2"></i>
+										<p><a href="https://www.facebook.com/eigelconsulting" target="_blank" title="Facebook">Facebook</a></p>
+									</li>
+									<li>
+										<i class="fab fa-youtube"></i>
+										<p><a href="https://www.youtube.com/channel/UCqyAb-CmTCkjX0V3yEDOaAg" target="_blank" title="YouTube">YouTube</a></p>
+									</li>
+									<li>
+										<i class="fab fa-linkedin-in text-2"></i>
+										<p><a href="https://www.linkedin.com/company/eigel-management-consulting/?trk=ppro_cprof&originalSubdomain=uk" target="_blank" title="Linkedin">LinkedIn</a></p>
+									</li>
+								</ul>
 							</div>
 
 						</div>
@@ -298,68 +285,53 @@
 		<!-- Current Page Vendor and Views -->
 		<script src="js/views/view.contact.js"></script>
 
-		<!-- Removed Google Maps since it only allows free trial and requires credit card information -->
-		<!-- 
-			<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-			<script>
+		<!-- HERE Map -->
+		<script>
 
-				/*
-				Map Settings
+			// https://developer.here.com/documentation/examples/maps-js/markers/markers-on-the-map
 
-					Find the Latitude and Longitude of your address:
-						- https://www.latlong.net/
-						- http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
+			function addMarkersToMap(map) {
+				var eigelMarkerMB = new H.map.Marker({lat:14.6232644, lng:120.9989919});
+				map.addObject(eigelMarkerMB);
 
-				*/
-				function initializeGoogleMaps() {
-					// Map Markers
-					var mapMarkers = [{
-						address: "New York, NY 10017",
-						html: "<strong>New York Office</strong><br>New York, NY 10017",
-						icon: {
-							image: "img/pin.png",
-							iconsize: [26, 46],
-							iconanchor: [12, 46]
-						},
-						popup: true
-					}];
+				var eigelMarkerSB = new H.map.Marker({lat:17.6116442, lng:121.7297569});
+				map.addObject(eigelMarkerSB);
+			}
 
-					// Map Initial Location
-					var initLatitude = 40.75198;
-					var initLongitude = -73.96978;
+			/**
+			 * Boilerplate map initialization code starts below:
+			*/
 
-					// Map Extended Settings
-					var mapSettings = {
-						controls: {
-							draggable: (($.browser.mobile) ? false : true),
-							panControl: true,
-							zoomControl: true,
-							mapTypeControl: true,
-							scaleControl: true,
-							streetViewControl: true,
-							overviewMapControl: true
-						},
-						scrollwheel: false,
-						markers: mapMarkers,
-						latitude: initLatitude,
-						longitude: initLongitude,
-						zoom: 11
-					};
+			//Step 1: initialize communication with the platform
+			// In your own code, replace variable window.apikey with your own apikey
+			var platform = new H.service.Platform({
+				'apikey': 'OK0iaqLr1oMNEsqLH24891LI8-0zqghi1PFy8sMOh-A'
+			});
+			var defaultLayers = platform.createDefaultLayers();
 
-					var map = $('#googlemaps').gMap(mapSettings);
-				}
+			//Step 2: initialize a map - this map is centered over Europe
+			var map = new H.Map(document.getElementById('mapContainer'),
+				defaultLayers.vector.normal.map,{
+				center: {lat:14.6232644, lng:120.9989919},
+				zoom: 17,
+				pixelRatio: window.devicePixelRatio || 1
+			});
+			// add a resize listener to make sure that the map occupies the whole container
+			window.addEventListener('resize', () => map.getViewPort().resize());
 
-				// Initialize Google Maps when element enter on browser view
-				theme.fn.intObs( '.google-map', 'initializeGoogleMaps()', {} );
+			//Step 3: make the map interactive
+			// MapEvents enables the event system
+			// Behavior implements default interactions for pan/zoom (also on mobile touch environments)
+			var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
 
-				// Map text-center At
-				var mapCenterAt = function(options, e) {
-					e.preventDefault();
-					$('#googlemaps').gMap("centerAt", options);
-				}
+			// Create the default UI components
+			var ui = H.ui.UI.createDefault(map, defaultLayers);
 
-			</script> 
-		-->
+			// Now use the map as required...
+			window.onload = function () {
+				addMarkersToMap(map);
+			}
+		</script> 
 
 	</body>
 </html>

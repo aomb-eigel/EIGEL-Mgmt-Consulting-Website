@@ -22,7 +22,7 @@ body {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(360px,1fr));
-    grid-template-rows: auto auto;
+    grid-auto-rows: 20px;
     margin-bottom: 100px;
 }
 
@@ -40,6 +40,28 @@ body {
 
 .read-more-article-page a:hover {
     color: white
+}
+
+/* Homepage Testimonial Items */
+.logo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.testimonial-logo-image {
+    width: 120px !important;
+}
+
+@media (max-width: 476px) {
+    .logo-item {
+        height: 200px;
+    }
+    
+    .testimonial-logo-image {
+        width: 180px !important;
+    }
 }
 
 @media (min-width: 768px) {
