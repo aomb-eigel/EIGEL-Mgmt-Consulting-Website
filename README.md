@@ -1,3 +1,5 @@
 # EIGEL-Mgmt-Consulting-Website
 
-August 17, 2022 - First initial draft of the homepage
+EIGEL is a team of professionals, esteemed in their own respective diverse fields of specialization and expertise.
+
+It aims to empower and be the strategic partner of people, organizations, companies, and communities in reaching their goals and targets through active collaboration, hard work, and commitment.
