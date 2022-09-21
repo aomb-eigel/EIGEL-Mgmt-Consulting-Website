@@ -249,7 +249,7 @@
 
 				<!-- Start of Core Values -->
 				<!-- 
-					TODO: Add the appropriate icon for core values. The writeup as well. 
+					TODO: Add the appropriate icons for core values. 
 					DEADLINE: September 24, 2022
 					REQUESTED BY: Ma'am Legilyn Teodoro
 				-->
@@ -258,27 +258,37 @@
 						<div class="col-lg featured-box-full featured-box-full-primary">
 							<i class="far fa-life-ring"></i>
 							<h4>Excellence</h4>
-							<p class="font-weight-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, omnis!</p>
+							<p class="font-weight-light">
+								We always strive to achieve the best for our clients in everything we do.
+							</p>
 						</div>
 						<div class="col-lg featured-box-full featured-box-full-primary">
 							<i class="fas fa-film"></i>
 							<h4>Integrity</h4>
-							<p class="font-weight-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, omnis!</p>
+							<p class="font-weight-light">
+								We value honesty and openness in all our services.
+							</p>
 						</div>
 						<div class="col-lg featured-box-full featured-box-full-primary">
 							<i class="far fa-star"></i>
 							<h4>God-fearing</h4>
-							<p class="font-weight-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, fugiat.</p>
+							<p class="font-weight-light">
+								We are grateful for every opportunity that God provides.
+							</p>
 						</div>
 						<div class="col-lg featured-box-full featured-box-full-primary">
 							<i class="far fa-edit"></i>
 							<h4>Empowerment</h4>
-							<p class="font-weight-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, omnis!</p>
+							<p class="font-weight-light">
+								We inspire and support people to gain power and control of their processes.
+							</p>
 						</div>
 						<div class="col-lg featured-box-full featured-box-full-primary">
 							<i class="far fa-edit"></i>
 							<h4>Leadership</h4>
-							<p class="font-weight-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, omnis!</p>
+							<p class="font-weight-light">
+								We lead to empower people to reach their goals and targets.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -382,11 +392,6 @@
 				
 
 				<!-- Start of EIGEL team -->
-				<!-- 
-					TODO: Turn into 3 Categories (Show All, Leadership, Regular, and Consultants) 
-					DEADLINE: September 24, 2022
-					REQUESTED BY: Ma'am Legilyn Teodoro
-				-->
 				<section id="eigel-team" class="section section-default border-0 mb-0">					
 					<div class="row">
 						<div class="col text-center" data-appear-animation="fadeInUpShorter">
@@ -397,18 +402,20 @@
 
 					<div class="container py-4" data-appear-animation="fadeInUp">
 						<ul class="nav nav-pills sort-source sort-source-style-3 justify-content-center" data-sort-id="team" data-option-key="filter">
-							<li class="nav-item active" data-option-value="*"><a class="nav-link text-2-5 text-uppercase active" href="#">Show All</a></li>
+							<!-- Original value of data-option-value is * -->
+							<li class="nav-item active" data-option-value="org-chart"><a class="nav-link text-2-5 text-uppercase active" href="#">Show All</a></li>
 							<li class="nav-item" data-option-value=".leadership"><a class="nav-link text-2-5 text-uppercase" href="#">Leadership</a></li>
-							<li class="nav-item" data-option-value=".quality-assurance"><a class="nav-link text-2-5 text-uppercase" href="#">Quality Assurance</a></li>
-							<li class="nav-item" data-option-value=".human-resources"><a class="nav-link text-2-5 text-uppercase" href="#">Human Resources</a></li>
-							<li class="nav-item" data-option-value=".finance"><a class="nav-link text-2-5 text-uppercase" href="#">Finance</a></li>
-							<li class="nav-item" data-option-value=".admin"><a class="nav-link text-2-5 text-uppercase" href="#">Admin</a></li>
-							<li class="nav-item" data-option-value=".project-management"><a class="nav-link text-2-5 text-uppercase" href="#">Project Management</a></li>
-							<li class="nav-item" data-option-value=".consultation"><a class="nav-link text-2-5 text-uppercase" href="#">Consultation</a></li>
+							<li class="nav-item" data-option-value=".regular"><a class="nav-link text-2-5 text-uppercase" href="#">Regular</a></li>
+							<li class="nav-item" data-option-value=".consultation"><a class="nav-link text-2-5 text-uppercase" href="#">Consultants</a></li>
 						</ul>
 	
 						<div class="sort-destination-loader mt-4 pt-2 sort-destination-loader-loaded">
 							<div class="row team-list sort-destination" data-sort-id="team" data-filter="*" style="position: relative; height: 1984px;">
+								
+								<div class="isotope-item org-chart">
+									<img src="./img/about-images/org_chart.png" class="org-chart-img" alt="organizational chart">
+								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item leadership" style="position: absolute; left: 0px; top: 0px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -451,7 +458,7 @@
 									</span>
 								</div>
 								
-								<div class="col-sm-6 col-lg-4 isotope-item quality-assurance" style="position: absolute; left: 0px; top: 496px;">
+								<div class="col-sm-6 col-lg-4 isotope-item regular" style="position: absolute; left: 0px; top: 496px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
 											<a href="about-me.html">
@@ -465,7 +472,7 @@
 									</span>
 								</div>
 
-								<div class="col-sm-6 col-lg-4 isotope-item human-resources" style="position: absolute; left: 360px; top: 496px;">
+								<div class="col-sm-6 col-lg-4 isotope-item regular" style="position: absolute; left: 360px; top: 496px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
 											<a href="about-me.html">
@@ -479,7 +486,7 @@
 									</span>
 								</div>
 
-								<div class="col-sm-6 col-lg-4 isotope-item finance" style="position: absolute; left: 0px; top: 992px;">
+								<div class="col-sm-6 col-lg-4 isotope-item regular" style="position: absolute; left: 0px; top: 992px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
 											<a href="about-me.html">
@@ -493,7 +500,7 @@
 									</span>
 								</div>
 
-								<div class="col-sm-6 col-lg-4 isotope-item admin" style="position: absolute; left: 360px; top: 992px;">
+								<div class="col-sm-6 col-lg-4 isotope-item regular" style="position: absolute; left: 360px; top: 992px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
 											<a href="about-me.html">
@@ -506,7 +513,8 @@
 										</span>
 									</span>
 								</div>
-								<div class="col-sm-6 col-lg-4 isotope-item admin" style="position: absolute; left: 360px; top: 992px;">
+
+								<div class="col-sm-6 col-lg-4 isotope-item regular" style="position: absolute; left: 360px; top: 992px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
 											<a href="about-me.html">
@@ -519,7 +527,8 @@
 										</span>
 									</span>
 								</div>
-								<div class="col-sm-6 col-lg-4 isotope-item admin" style="position: absolute; left: 360px; top: 992px;">
+
+								<div class="col-sm-6 col-lg-4 isotope-item regular" style="position: absolute; left: 360px; top: 992px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
 											<a href="about-me.html">
@@ -532,7 +541,8 @@
 										</span>
 									</span>
 								</div>
-								<div class="col-sm-6 col-lg-4 isotope-item admin" style="position: absolute; left: 360px; top: 992px;">
+
+								<div class="col-sm-6 col-lg-4 isotope-item regular" style="position: absolute; left: 360px; top: 992px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
 											<a href="about-me.html">
@@ -545,7 +555,8 @@
 										</span>
 									</span>
 								</div>
-								<div class="col-sm-6 col-lg-4 isotope-item admin" style="position: absolute; left: 360px; top: 992px;">
+
+								<div class="col-sm-6 col-lg-4 isotope-item regular" style="position: absolute; left: 360px; top: 992px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
 											<a href="about-me.html">
@@ -558,7 +569,8 @@
 										</span>
 									</span>
 								</div>
-								<div class="col-sm-6 col-lg-4 isotope-item admin" style="position: absolute; left: 360px; top: 992px;">
+
+								<div class="col-sm-6 col-lg-4 isotope-item regular" style="position: absolute; left: 360px; top: 992px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
 											<a href="about-me.html">
@@ -572,7 +584,7 @@
 									</span>
 								</div>
 
-								<div class="col-sm-6 col-lg-4 isotope-item project-management" style="position: absolute; left: 0px; top: 1488px;">
+								<div class="col-sm-6 col-lg-4 isotope-item regular" style="position: absolute; left: 0px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
 											<a href="about-me.html">
@@ -585,7 +597,8 @@
 										</span>
 									</span>
 								</div>
-								<div class="col-sm-6 col-lg-4 isotope-item project-management" style="position: absolute; left: 0px; top: 1488px;">
+
+								<div class="col-sm-6 col-lg-4 isotope-item regular" style="position: absolute; left: 0px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
 											<a href="about-me.html">
@@ -598,7 +611,8 @@
 										</span>
 									</span>
 								</div>
-								<div class="col-sm-6 col-lg-4 isotope-item project-management" style="position: absolute; left: 0px; top: 1488px;">
+
+								<div class="col-sm-6 col-lg-4 isotope-item regular" style="position: absolute; left: 0px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
 											<a href="about-me.html">
@@ -625,6 +639,7 @@
 										</span>
 									</span>
 								</div>
+								
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -638,6 +653,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -651,6 +667,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -664,6 +681,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -677,6 +695,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -690,6 +709,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -703,6 +723,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -716,6 +737,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -729,6 +751,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -742,6 +765,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -755,6 +779,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -768,6 +793,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -781,6 +807,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -794,6 +821,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">
@@ -807,6 +835,7 @@
 										</span>
 									</span>
 								</div>
+
 								<div class="col-sm-6 col-lg-4 isotope-item consultation" style="position: absolute; left: 360px; top: 1488px;">
 									<span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
 										<span class="thumb-info-wrapper">

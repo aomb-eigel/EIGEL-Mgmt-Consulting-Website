@@ -26,10 +26,21 @@ body {
     margin-bottom: 100px;
 }
 
-.left-section-contact-us-image {
-    max-width: 546px;
-    max-height: 550px;
+/* Contact Us Page */
+
+.left-section-contact-us {
     overflow: hidden;
+}
+
+.left-section-contact-us-map {
+    height: 600px;
+    width: 100%;
+}
+
+/* Contact Us Page */
+
+.org-chart-img {
+    width: 100%;
 }
 
 .read-more-article-page {
