@@ -4,9 +4,10 @@
 	'use strict';
 
 	// Scroll to Top Button.
-	if (typeof theme.PluginScrollToTop !== 'undefined') {
-		theme.PluginScrollToTop.initialize();
-	}
+	// Uncomment if statement if the developer wants to have a scroll to top button on the bottom right
+	// if (typeof theme.PluginScrollToTop !== 'undefined') {
+	// 	theme.PluginScrollToTop.initialize();
+	// }
 
 	// Tooltips
 	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
