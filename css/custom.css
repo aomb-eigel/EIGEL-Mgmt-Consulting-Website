@@ -26,6 +26,36 @@ body {
     margin-bottom: 100px;
 }
 
+/* Start of About Us Page */
+
+.core-values-letter {
+    color: white;
+    font-size: 84px;
+    font-weight: bold;
+}
+
+.core-values-background-one {
+    background-color: #183f72;
+}
+
+.core-values-background-two {
+    background-color: #183f72;
+}
+
+.core-values-background-three {
+    background-color: #b31c1b;
+}
+
+.core-values-background-four {
+    background-color: #183f72;
+}
+
+.core-values-background-five {
+    background-color: #b31c1b;
+}
+
+/* End of About Us Page */
+
 /* Start of Contact Us Page */
 
 .left-section-contact-us {
