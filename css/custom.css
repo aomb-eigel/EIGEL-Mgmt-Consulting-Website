@@ -56,6 +56,19 @@ body {
 
 /* End of About Us Page */
 
+/* Start of Employee Page */
+
+.employee-description-button {
+    display: flex;
+    width: 100%;
+}
+
+.employee-description-button > .hire-me-button {
+    margin-left: 10px;
+}
+
+/* End of Employee Page */
+
 /* Start of Contact Us Page */
 
 .left-section-contact-us {
