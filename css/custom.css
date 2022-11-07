@@ -56,6 +56,11 @@ body {
 
 /* End of About Us Page */
 
+.road-map-description {
+    height: 156px;
+    vertical-align: text-top;
+}
+
 /* Start of Employee Page */
 
 .employee-description-button {
@@ -146,5 +151,10 @@ body {
     .header-container{
         max-width: 768px;
         min-width: 375px;
+    }
+
+    /* Custom CSS for Road Map in Article Pages */
+    .road-map-description {
+        height: auto;
     }
 }
