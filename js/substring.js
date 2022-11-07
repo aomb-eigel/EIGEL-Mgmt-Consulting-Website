@@ -1,8 +1,8 @@
-var string = document.getElementById("employee-description").innerHTML;
+var stringCollection = document.getElementsByClassName("employee-description");
 var length = 250;
-var trimmedString = string.length > length ? 
-                    string.substring(0, length - 3) + "..." : 
-                    string;
-console.log(trimmedString);
+var trimmedString;
 
-document.getElementById("employee-description").innerHTML = string.replace(document.getElementById("employee-description").innerHTML, trimmedString);
+for (var i = 0; i < stringCollection.length; i++) {
+    trimmedString = stringCollection[i].innerHTML.length > length ? stringCollection[i].innerHTML.substring(0, length - 3) + "..." : stringCollection[i].innerHTML;
+    stringCollection[i].innerHTML = stringCollection[i].innerHTML.replace(stringCollection[i].innerHTML, trimmedString);
+}
