@@ -54,6 +54,10 @@ body {
     background-color: #b31c1b;
 }
 
+.employee-card {
+    min-height: 505px;
+}
+
 /* End of About Us Page */
 
 .road-map-description {
