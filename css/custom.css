@@ -120,6 +120,14 @@ body {
 
 /* End of Homepage Testimonial Items */
 
+/* Start of Service Page */
+
+.flip-card, .flip-front, .flip-back {
+    min-height: 310px;
+}
+
+/* End of Service Page */
+
 @media (max-width: 476px) {
     .logo-item {
         height: 200px;
@@ -160,5 +168,16 @@ body {
     /* Custom CSS for Road Map in Article Pages */
     .road-map-description {
         height: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    
+    .review-card {
+        padding: 12px;
+    }
+
+    .svg-map-and-zoom, .svg-content {
+        padding-bottom: 25px;
     }
 }
