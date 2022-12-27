@@ -3,7 +3,7 @@ const d = new Date();
 let year = d.getFullYear();
 
 // Change the constant to adjust firm age.
-let currentExperience = year - 2017;
+let currentExperience = year - 2016;
 
 var a = ['','One ','Two ','Three ','Four ', 'Five ','Six ','Seven ','Eight ','Nine ','Ten ','Eleven ','Twelve ','Thirteen ','Fourteen ','Fifteen ','Sixteen ','Seventeen ','Eighteen ','Nineteen '];
 var b = ['', '', 'Twenty','Thirty','Forty','Fifty', 'Sixty','Seventy','Eighty','Ninety'];
